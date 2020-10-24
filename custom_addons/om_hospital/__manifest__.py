@@ -1,0 +1,23 @@
+{
+    'name': 'Hospital Management',
+    'version': '0.0.1',
+    'category': 'Extra Tools',
+    'summary': 'Module for managing the Hospitals',
+    'sequence': '10',
+    'license': 'GPL-3',
+    'author': 'Sinisha',
+    'maintainer': 'Sinisha',
+    'website': 'test.com',
+    'depends': ['base', 'mail', 'sale'],
+    'demo': [],
+    'data': [
+        'security/ir.model.access.csv',
+        'data/sequence.xml',
+        'views/patient.xml',
+        'views/appointment.xml',
+        'reports/report.xml',
+    ],
+    'installable': True,
+    'application': True,
+    'auto_install': False,
+}
